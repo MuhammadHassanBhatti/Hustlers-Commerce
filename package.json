@@ -1,0 +1,29 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.12",
+    "@mui/material": "^5.15.12",
+    "@mui/styles": "^5.15.12",
+    "aos": "^3.0.0-beta.6",
+    "firebase": "^10.8.1",
+    "formik": "^2.4.5",
+    "next": "14.1.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router-dom": "^6.22.2"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.1.2"
+  }
+}
